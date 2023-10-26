@@ -1,9 +1,9 @@
-$(document).ready(function () {
+$(document).ready(function() {
 
-    $('.your-class').slick({
+    $('.first-screen-slider').slick({
         dots: true,
-    })
-
+        appendArrows: '.first-screen-nav',
+    });
 
 
 const burger = document.querySelector('.hamburger');
@@ -11,4 +11,5 @@ const burger = document.querySelector('.hamburger');
     burger.addEventListener('click', function () {
         // burger.classList.replace("test-delete", "bar");
         burger.classList.toggle('is-active')
+    })
     })
