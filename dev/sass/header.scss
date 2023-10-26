@@ -21,4 +21,15 @@ header {
 			}
 		}
 	}
+	.navbar-light .navbar-toggler-icon {
+		background-image: none;
+	}
+	.navbar-toggler {
+		&:focus {
+			box-shadow: none;
+		}
+	}
+	.navbar-collapse {
+		text-align: center;
+	}
 }
