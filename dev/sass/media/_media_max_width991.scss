@@ -32,6 +32,27 @@
 			padding: 23px 85px;
 		}
 	}
+
+	.template-title {
+		margin-bottom: 36px;
+
+		h3 {
+			font-size: 16px;
+		}
+
+		&.col-lg-7 {
+			margin-bottom: 56px;
+
+			h2 {
+				font-size: 24px;
+
+				&:after {
+					display: none;
+				}
+			}
+		}
+	}
+
 	.first-screen {
 		margin-bottom: 56px;
 	}
@@ -78,5 +99,34 @@
 		font-size: 16px;
 		margin-bottom: 18px;
 		max-width: 275px;
+	}
+
+	.calculation-form {
+		padding: 49px 15px 13px;
+		.input-box.has-checkbox {
+			margin-bottom: 7px;
+			padding-top: 4px;
+		}
+
+		label[for="fileInput"] {
+			margin-top: 31px;
+		}
+
+		.btn {
+			max-width: 100%;
+			width: 100%;
+			padding: 19.6px 15px 19.6px 29px;
+			.icon {
+				margin: 0 -14px 0 70px;
+			}
+		}
+	}
+
+	.calculation__img {
+		display: none;
+	}
+
+	#file-name {
+		top: 0;
 	}
 }

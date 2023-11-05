@@ -1,3 +1,10 @@
 @media (min-width: 1200px) {
-
+	.calculation {
+		.calculation-title {
+			&::after {
+				margin-left: 20px;
+				margin-bottom: 10px;
+			}
+		}
+	}
 }

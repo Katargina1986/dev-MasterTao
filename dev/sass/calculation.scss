@@ -16,23 +16,6 @@
 	}
 }
 
-.calculation-title {
-	font-size: 36px;
-	font-weight: 700;
-	line-height: 124.5%;
-	text-transform: uppercase;
-	margin-bottom: 59px;
-
-	&:after {
-		content: "";
-		position: static;
-		display: inline-block;
-		width: 85px;
-		height: 2px;
-		margin: 10px 10px 10px 19px;
-		background-color: $color-secondary;
-	}
-}
 .calculation-form {
 	padding: 50px 35px;
 	background-color: #363a4d;
@@ -48,10 +31,6 @@
 		display: flex;
 		align-items: center;
 	}
-}
-
-.calculation-row {
-	display: flex;
 }
 
 .calculation-column {

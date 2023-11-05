@@ -10,4 +10,16 @@
 			padding-bottom: 228px;
 		}
 	}
+
+	.template-title {
+		&.col-lg-7 {
+			text-align: left;
+			&:after {
+				display: none;
+			}
+		}
+	}
+	.calculation-row {
+		display: flex;
+	}
 }
