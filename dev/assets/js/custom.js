@@ -19,4 +19,15 @@ const burger = document.querySelector('.hamburger');
         // burger.classList.replace("test-delete", "bar");
         burger.classList.toggle('is-active')
     })
-    })
+})
+
+document.getElementById('fileInput').onchange = function () {
+    document.getElementById('file-name').innerHTML = this.value;
+};
+     
+const checkButton = document.querySelectorAll('[type="checkbox"]');
+
+checkButton.forEach((item, index) => {
+  item.closest('.calculation-column').style.marginBottom = "-10px";
+  index === 0 ? item.closest('.input-box').classList.add('has-checkbox') : null;
+})

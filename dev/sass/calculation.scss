@@ -1,0 +1,126 @@
+.calculation {
+	overflow-x: clip;
+	margin-bottom: 113px;
+	.container {
+		position: relative;
+	}
+	&__img-box {
+		position: absolute;
+		bottom: -111px;
+		right: -3px;
+	}
+
+	&__img {
+		max-width: 560px;
+		width: 36vw;
+	}
+}
+
+.calculation-title {
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 124.5%;
+	text-transform: uppercase;
+	margin-bottom: 59px;
+
+	&::after {
+		content: "";
+		display: inline-block;
+		width: 82px;
+		height: 1px;
+		background-color: $color-secondary;
+	}
+}
+.calculation-form {
+	padding: 50px 35px;
+	background-color: #363a4d;
+	width: 100%;
+	max-width: 626px;
+	border-radius: 20px;
+
+	.has-checkbox {
+		padding-top: 19px;
+		margin-bottom: 8px;
+	}
+	label {
+		display: flex;
+		align-items: center;
+	}
+}
+
+.calculation-row {
+	display: flex;
+}
+
+.calculation-column {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+
+	.input-box {
+		display: flex;
+		flex-direction: column;
+		margin: 0 15px 20px;
+
+		label {
+			font-size: 15px;
+			font-weight: 600;
+			line-height: 126%;
+			margin-bottom: 6px;
+		}
+
+		input {
+			padding: 19px 20px;
+			font-size: 15px;
+			line-height: 126%;
+			border-radius: 10px;
+			background: #fff;
+			transition: 1.5s;
+
+			&::placeholder {
+				color: #cbcbcb;
+			}
+
+			&:active {
+				background-color: #000;
+			}
+
+			&:focus-visible {
+				outline: 1px solid orange;
+			}
+		}
+	}
+
+	[for="fileInput"] {
+		padding: 11px 20px;
+		font-weight: 400;
+		background-color: transparent;
+		border-radius: 10px;
+		border: 1px dashed rgba(255, 255, 255, 0.26);
+		text-align: center;
+		margin-bottom: 6px;
+		cursor: pointer;
+		transition: 0.3s;
+
+		&:hover {
+			border: 1px dashed $color-secondary;
+			color: $color-secondary;
+		}
+	}
+	#fileInput {
+		display: none;
+	}
+
+	.btn {
+		max-width: 251px;
+		padding: 19.6px 29px;
+	}
+}
+
+#file-name {
+	padding: 0 15px;
+	font-size: 15px;
+	line-height: 126%;
+	margin-top: 6px;
+	margin-bottom: 14px;
+}
