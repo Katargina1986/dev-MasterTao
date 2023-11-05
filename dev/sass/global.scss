@@ -329,19 +329,4 @@ ul.slick-dots {
 		height: 2px;
 		background-color: $color-secondary;
 	}
-
-	&.col-lg-7 {
-		margin-bottom: 35px;
-		h2 {
-			&:after {
-				content: "";
-				position: static;
-				display: inline-block;
-				width: 85px;
-				height: 2px;
-				margin: 10px 10px 10px 19px;
-				background-color: $color-secondary;
-			}
-		}
-	}
 }
