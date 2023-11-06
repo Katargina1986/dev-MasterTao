@@ -6,6 +6,14 @@
 	.container-xxl {
 		padding: 0;
 	}
+	section.container-fluid {
+		padding: 55px 20px 60px;
+		&:before {
+			border-radius: 0;
+			left: 0;
+			right: 0;
+		}
+	}
 	a.navbar-brand {
 		width: 126px;
 		img {
@@ -35,6 +43,10 @@
 
 	.template-title {
 		margin-bottom: 36px;
+
+		h2 {
+			font-size: 24px;
+		}
 
 		h3 {
 			font-size: 16px;
