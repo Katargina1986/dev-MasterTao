@@ -1,5 +1,46 @@
 .card {
 	border: none;
 	border-radius: 20px;
-	background: #363a4d;
+	background: $bg-secondary;
+	overflow: hidden;
+	margin: 0 15px;
+	padding: 0 20px 27px;
+	text-align: center;
+
+	&-image {
+		margin: 0 -20px 27px;
+		width: calc(100% + 40px);
+
+		img {
+			height: 229px;
+			object-fit: cover;
+			object-position: center;
+		}
+	}
+	&-title {
+		margin-bottom: 12px;
+		line-height: 124.5%;
+		text-align: center;
+	}
+
+	&-attr {
+		display: flex;
+		gap: 35px;
+		margin-bottom: 8px;
+		justify-content: center;
+
+		&-item {
+			display: flex;
+
+			img {
+				max-width: 24px;
+				margin-right: 8px;
+			}
+		}
+	}
+
+	&-price {
+		margin-bottom: 22px;
+		text-align: center;
+	}
 }
