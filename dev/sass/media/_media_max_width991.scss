@@ -144,14 +144,15 @@
 	.slick-list {
 		margin: 0 -15px 32px;
 	}
-	.card-button-row {
-		.btn {
-			width: 138px;
-			justify-content: center;
-			padding: 13px 4px;
-		}
+	
 }
-}
+.card-button-row {
+	.btn {
+		width: 138px;
+		justify-content: center;
+		padding: 13px 4px;
+	}}
+
 section {
 	&.container-fluid {
 	&:nth-child(odd) {
