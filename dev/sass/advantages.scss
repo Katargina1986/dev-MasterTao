@@ -1,7 +1,7 @@
 .advantage {
 	text-align: center;
 	margin-bottom: 48px;
-	max-width: 267px;
+	max-width: 318px;
 	&__img-box {
 		width: 113px;
 		height: 113px;
@@ -23,12 +23,5 @@
 		font-weight: 400;
 		max-width: 160px;
 		margin: 0 auto;
-	}
-}
-.container {
-	.template-title {
-		&:after {
-			background-color: $color-primary;
-		}
 	}
 }

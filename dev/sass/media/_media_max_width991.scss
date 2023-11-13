@@ -1,20 +1,21 @@
 @media screen and (max-width: 991px) {
+	.advantages.container-fluid {
+		padding: 55px 20px 55px;
+		&:before {
+			border-radius: 0;
+			left: 0;
+			right: 0;	
+	}
+}
 	.container {
 		padding-right: 20px;
 		padding-left: 20px;
+		
 	}
 	.container-xxl {
 		padding: 0;
 	}
-
-	section.container-fluid {
-		padding: 55px 20px 60px;
-		&:before {
-			border-radius: 0;
-			left: 0;
-			right: 0;
-		}
-	}
+	
 	a.navbar-brand {
 		width: 126px;
 		img {
@@ -121,10 +122,6 @@
 			padding-top: 4px;
 		}
 
-		label[for="fileInput"] {
-			margin-top: 31px;
-		}
-
 		.btn {
 			max-width: 100%;
 			width: 100%;
@@ -147,12 +144,22 @@
 	.slick-list {
 		margin: 0 -15px 32px;
 	}
+	.card-button-row {
+		.btn {
+			width: 138px;
+			justify-content: center;
+			padding: 13px 4px;
+		}
 }
+}
+section {
+	&.container-fluid {
+	&:nth-child(odd) {
+        .template-title {
+            &:after {
+                background-color: $color-primary;
+            }
+        }
+}
+}}
 
-.card-button-row {
-	.btn {
-		width: 138px;
-		justify-content: center;
-		padding: 13px 5px;
-	}
-}
