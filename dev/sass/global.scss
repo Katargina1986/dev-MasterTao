@@ -117,7 +117,7 @@ section {
 	}
 
 	&.container-fluid {
-		padding: 90px 85px 90px;
+		padding: 55px 85px 55px;
 		position: relative;
 
 		&:before {
@@ -132,6 +132,13 @@ section {
 			z-index: -1;
 		}
 	}
+	&:nth-child(even) {
+        .template-title {
+            &:after {
+                background-color: $color-secondary;
+            }
+        }
+}
 }
 
 .btn {
