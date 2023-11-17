@@ -139,7 +139,15 @@ section {
             }
         }
 }
+	&.container-fluid {
+	&:nth-child(odd) {
+		.template-title {
+			&:after {
+				background-color: $color-primary;
+			}
+		}
 }
+}}
 
 .btn {
 	font-weight: 600;
