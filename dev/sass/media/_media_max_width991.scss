@@ -1,5 +1,6 @@
 @media screen and (max-width: 991px) {
-	.advantages.container-fluid {
+	.advantages.container-fluid,
+	.services.container-fluid {
 		padding: 55px 20px 55px;
 		&:before {
 			border-radius: 0;
@@ -11,14 +12,7 @@
 	.delivery-slider {
 		max-width: 360px;
 	}
-	.services.container-fluid {
-		padding: 55px 20px 55px;
-		&:before {
-			border-radius: 0;
-			left: 0;
-			right: 0;
-		}}
-
+	
 		.delivery-slider {
 		.slick-list {
 			margin: 0 -15px 32px;
