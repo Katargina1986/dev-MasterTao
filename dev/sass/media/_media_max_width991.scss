@@ -12,11 +12,14 @@
 	.delivery-slider {
 		max-width: 360px;
 	}
-	
-		.delivery-slider {
+
+	.delivery-slider {
 		.slick-list {
 			margin: 0 -15px 32px;
 		}
+	}
+	.services .delivery-slider .card {
+		margin: 0 auto;
 	}
 
 	.container {
@@ -138,7 +141,7 @@
 			width: 100%;
 			padding: 19.6px 15px 19.6px 29px;
 			.icon {
-				margin: 0 -14px 0 70px;
+				margin: 0 -14px 0 110px;
 			}
 		}
 	}
@@ -153,44 +156,30 @@
 
 	.card {
 		.card-button-row {
+			justify-content: center;
 			.btn {
 				width: 138px;
-				justify-content: center;
 				padding: 10px 4px;
-			}
-		}
-	}
-	section {
-		&.container-fluid {
-			&:nth-child(odd) {
-				.template-title {
-					&:after {
-						background-color: $color-primary;
-					}
-				}
 			}
 		}
 	}
 
 	.about {
-		margin-bottom: 45px;
-		.template-title {
-		   margin-bottom: 26px;
-		   text-align: center;
-		   &:after {
-			left: 170px;
+		.template-title::after {
+			left: 50%;
 		}
+		.title-about {
+			text-align: center;
 		}
-  
 		.img-box {
-		   display: flex;
-		   justify-content: center;
-		   img {
-			  max-width: 350px;
-			  margin-top: 160px;
-		   }
+			display: flex;
+			justify-content: center;
+			img {
+				max-width: 350px;
+				margin-top: 160px;
+			}
 		}
-	
+
 		&-descr {
 			p {
 				text-align: justify;
@@ -198,6 +187,7 @@
 				font-weight: 300;
 				line-height: 149.5%;
 				width: 335px;
+				margin: 0 auto;
 			}
 			span {
 				font-size: 16px;
@@ -205,5 +195,5 @@
 				line-height: 149.5%;
 			}
 		}
-	}}
-
+	}
+}

@@ -133,21 +133,21 @@ section {
 		}
 	}
 	&:nth-child(even) {
-        .template-title {
-            &:after {
-                background-color: $color-secondary;
-            }
-        }
-}
-	&.container-fluid {
+		.template-title {
+			&:after {
+				background-color: $color-secondary;
+			}
+		}
+	}
+
 	&:nth-child(odd) {
 		.template-title {
 			&:after {
 				background-color: $color-primary;
 			}
 		}
+	}
 }
-}}
 
 .btn {
 	font-weight: 600;
