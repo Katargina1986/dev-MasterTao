@@ -1,5 +1,5 @@
 @media screen and (max-width: 1399px) {
-		.delivery-slider {
+	.template-slider {
 		.slick-arrow {
 			&.slick-next {
 				right: -92px;
@@ -10,17 +10,14 @@
 			}
 		}
 	}
-
-	}
-
+}
 
 @media screen and (max-width: 1350px) {
-
-	.delivery-slider {
+	.template-slider {
 		max-width: 749px;
 		margin: 0 auto;
-	}}
-
+	}
+}
 
 @media screen and (max-width: 1199px) {
 	header {
