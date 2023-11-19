@@ -196,4 +196,32 @@
 			}
 		}
 	}
+	.questions {
+		.template-title h2 {
+			max-width: 335px;
+			margin: 0 auto;
+		}
+		.row {
+			gap: 28px;
+		}
+
+		.questions-form {
+			padding: 38px 20px;
+			margin: 0 auto;
+		}
+		.questions-title {
+			text-align: center;
+		}
+		.questions-info {
+			text-align: center;
+			font-weight: 400;
+		}
+		// .btn {
+		// 	width: 295px;
+		// 	height: 68px;
+		// 	flex-shrink: 0;
+		// 	border-radius: 90px;
+		// 	background: #e58d35;
+		// }
+	}
 }
