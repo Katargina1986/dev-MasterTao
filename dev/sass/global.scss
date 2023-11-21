@@ -78,20 +78,20 @@ ol {
 	}
 }
 
-ul {
-	li {
-		list-style: none;
-		&:not([class]):before {
-			content: "";
-			background-color: $color-secondary;
-			margin-right: 12px;
-			width: 8px;
-			height: 8px;
-			border-radius: 50%;
-			display: inline-block;
-		}
-	}
-}
+// ul {
+// 	li {
+// 		list-style: none;
+// 		&:not([class]):before {
+// 			content: "";
+// 			background-color: $color-secondary;
+// 			margin-right: 12px;
+// 			width: 8px;
+// 			height: 8px;
+// 			border-radius: 50%;
+// 			display: inline-block;
+// 		}
+// 	}
+// }
 
 .container {
 	max-width: 1170px;

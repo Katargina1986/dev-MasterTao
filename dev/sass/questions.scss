@@ -6,7 +6,7 @@
 	.col-lg-4{
 		max-width: 390px;
 		width: 100%;
-		padding: 0;
+		padding: 0 auto;
 
 	}
 
@@ -17,15 +17,18 @@
 	.questions-form {
 		background-color: #363a4d;
 		filter: drop-shadow(5px 15px 40px rgba(11, 24, 97, 0.32));
-		padding: 38px 40px;
+		padding: 38px 30px;
 		border-radius: 20px;
 		box-shadow: 5px 15px 40px rgba(11, 24, 97, 0.32);
 
 		.questions-title {
-			font-size: 24px;
-			font-weight: 700;
-			line-height: 126%;
-			margin-bottom: 7px;
+			h3{font-size: 24px;
+				font-weight: 700;
+				line-height: 126%;
+				margin: 0 auto;
+				margin-bottom: 7px;}
+		 
+			
 		}
 		.questions-info {
 			font-size: 17px;
@@ -42,7 +45,7 @@
 			.input-box {
 				display: flex;
 				flex-direction: column;
-				margin: 14px;
+				margin: 0 0 14px;
 
 				input {
 					padding: 19px 20px;
@@ -66,6 +69,7 @@
 				}
 			}
 			.btn {
+				margin-top: 12px;
 				img {
 					margin-left: auto;
 				}
