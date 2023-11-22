@@ -211,14 +211,14 @@
 			gap: 28px;
 		}
 
-		.questions-form {
+		&-form {
 			width: 335px;
 			padding: 38px 20px;
 		}
-		.questions-title {
+		&-title {
 			text-align: center;
 		}
-		.questions-info {
+		&-info {
 			text-align: center;
 			font-weight: 400;
 		}
@@ -229,7 +229,7 @@
 		.row {
 			margin-bottom: 14px;
 		}
-		.cooperation-list {
+		&-list {
 			margin-bottom: 42px;
 			li {
 				font-size: 16px;
@@ -246,6 +246,29 @@
 			img {
 				margin-left: auto;
 			}
+		}
+	}
+	footer {
+		padding-bottom: 44px;
+
+		.row {
+			justify-content: center;
+		}
+
+		.footer-contact {
+			text-align: center;
+
+			.footer-logo {
+				margin-bottom: 30px;
+			}
+
+			.nav-footer {
+				justify-content: center;
+			}
+		}
+
+		.footer-links {
+			display: none;
 		}
 	}
 }

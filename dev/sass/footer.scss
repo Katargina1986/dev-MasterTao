@@ -9,14 +9,17 @@ footer {
 		padding: 0 15px;
 		background-color: $color-primary;
 	}
+	.row {
+		flex-wrap: nowrap;
+		justify-content: space-between;
+	}
 	.footer-logo {
 		margin-bottom: 30px;
-
-		.row {
-			flex-wrap: nowrap;
-			justify-content: space-between;
-		}
 	}
+	.footer-contact {
+		max-width: 300px;
+		margin-top: 5px;}
+		
 	.footer-list {
 		display: flex;
 		flex-direction: column;
@@ -63,5 +66,38 @@ footer {
 		.icon-telegram {
 			background-image: url(/assets/img/icon-telegram.png);
 		}
-	}
-}
+		
+			}
+			.footer-links {
+				max-width: 810px;
+				width: 100%;
+				display: flex;
+				flex-shrink: 1;
+	
+				.footer-info {
+					display: flex;
+					width: 33.3%;
+					flex-direction: column;
+			
+					.links-title {
+						font-size: 20px;
+						font-weight: 700;
+						line-height: 146%;
+						margin-bottom: 14px;
+					}
+			
+					a {
+						color: #85899C;
+						line-height: 160.5%;
+						margin-bottom: 6px;
+						max-width: 210px;
+						padding-right: 6px;
+			
+						&:hover {
+							color: $color-secondary;
+						}
+					}
+	}}}
+	
+
+
