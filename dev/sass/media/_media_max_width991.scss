@@ -1,6 +1,7 @@
 @media screen and (max-width: 991px) {
 	.advantages.container-fluid,
-	.services.container-fluid {
+	.services.container-fluid,
+	.cooperation.container-fluid {
 		padding: 55px 20px 55px;
 		&:before {
 			border-radius: 0;
@@ -134,6 +135,15 @@
 		max-width: 275px;
 	}
 
+	.calculation,
+	.advantages,
+	.about,
+	.delivery,
+	.services,
+	.questions .col-lg-4 {
+		margin-bottom: 60px;
+	}
+
 	.calculation-form {
 		padding: 49px 15px 13px;
 		.input-box.has-checkbox {
@@ -145,7 +155,7 @@
 			width: 100%;
 			padding: 19.6px 15px 19.6px 29px;
 			.icon {
-				margin: 0 -14px 0 70px;
+				margin: 0 -14px 0 124px;
 			}
 		}
 	}
@@ -202,7 +212,6 @@
 	}
 	.questions {
 		margin: 0 20px;
-		margin-bottom: 60px;
 		.template-title h2 {
 			max-width: 335px;
 			margin: 0 auto;
@@ -212,7 +221,8 @@
 		}
 
 		&-form {
-			width: 335px;
+			max-width: 335px;
+			margin: 0 auto;
 			padding: 38px 20px;
 		}
 		&-title {
@@ -225,12 +235,11 @@
 	}
 	.cooperation {
 		text-align: justify;
-		margin: 0 20px;
 		.row {
-			margin-bottom: 14px;
+			margin-bottom: 42px;
 		}
 		&-list {
-			margin-bottom: 42px;
+			margin: 0 auto;
 			li {
 				font-size: 16px;
 				font-weight: 400;
@@ -241,6 +250,7 @@
 		.image-box {
 			margin-bottom: 38px;
 		}
+
 		.btn {
 			width: 335px;
 			img {
